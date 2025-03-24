@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2799711867207706158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2799711867207706145}
+  - component: {fileID: 2799711867207706144}
+  m_Layer: 11
+  m_Name: CouchAnimationStation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2799711867207706145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799711867207706158}
+  m_LocalRotation: {x: -0, y: 0.9197208, z: -0, w: 0.39257306}
+  m_LocalPosition: {x: 0.306, y: -0.686, z: -0.095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2799711867829911620}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 133.77101, z: 0}
+--- !u!114 &2799711867207706144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799711867207706158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489f2ed345ec2eb4ba1c07d4143e2b8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progress: 0
+  selectedLoop: 0
+  loops:
+  - speed: 0.7
+    attachments: 00000000000000000000000000000000020000000000000000000000000000000000000000000000
+    attachmentTargets:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    motionScale:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    motionOffset:
+    - 0.45333332
+    - 0.76666665
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    motion:
+    - {fileID: 11400000, guid: 121a2454de7120540985175e42d52997, type: 2}
+    - {fileID: 11400000, guid: 121a2454de7120540985175e42d52997, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    targetPositions:
+    - {x: 0.08116473, y: 1.1569854, z: -0.540872}
+    - {x: 0.14622971, y: 0.57376015, z: -0.3017276}
+    - {x: -0.26014525, y: 0.5440475, z: -0.3679518}
+    - {x: 0.6368487, y: 0.8081733, z: -0.34207666}
+    - {x: 0.48424423, y: 0.5762741, z: 0.19013822}
+    - {x: 0.33076409, y: 0.087462604, z: 0.35923648}
+    - {x: 0.5874826, y: 0.7688476, z: -0.781788}
+    - {x: -0.24702728, y: 0.51896584, z: -0.473478}
+    - {x: 0.5095469, y: 0.71148986, z: 0.25742078}
+    - {x: -0.04753357, y: 0.5018666, z: 0.62573373}
+    targetRotations:
+    - {x: -0.22385067, y: 0.05812626, z: 0.15791155, w: 0.96019894}
+    - {x: -0.5157895, y: -0.0054404964, z: 0.0010276749, w: 0.856819}
+    - {x: 0.016833851, y: 0.040189, z: -0.6978328, w: 0.71519864}
+    - {x: 0.073312335, y: 0.04328636, z: 0.7890915, w: 0.6088613}
+    - {x: 0.2258099, y: -0.04799015, z: 0.72782886, w: 0.6459991}
+    - {x: -0.11901792, y: 0.20529261, z: -0.008958346, w: 0.9715969}
+    - {x: 0, y: -0.000000705808, z: 0, w: 1.0001808}
+    - {x: 0, y: -0.0000010953323, z: 0, w: 1.0002632}
+    - {x: 2.1566223e-14, y: -0.00000005471975, z: -7.730621e-15, w: 1.0000182}
+    - {x: 1.4663692e-13, y: 0.0000003053586, z: -4.8400452e-14, w: 1.0000637}
+    computedTargetPositions:
+    - {x: -171.58502, y: 19.038729, z: 310.9151}
+    - {x: -171.61073, y: 18.452694, z: 311.15982}
+    - {x: -171.97232, y: 18.423021, z: 310.97467}
+    - {x: -171.12587, y: 18.687147, z: 311.27264}
+    - {x: -171.43867, y: 18.455208, z: 311.7313}
+    - {x: -171.6311, y: 17.966436, z: 311.84732}
+    - {x: -171.03891, y: 18.647821, z: 310.83878}
+    - {x: -171.92767, y: 18.39794, z: 310.87814}
+    - {x: -171.4298, y: 18.590464, z: 311.80484}
+    - {x: -172.07262, y: 18.38084, z: 311.98587}
+    computedTargetVelocities:
+    - {x: -0.25614774, y: -0.0744324, z: -0.030589387}
+    - {x: 0.14142941, y: 0.0010978584, z: 0.046549477}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    computedTargetRotations:
+    - {x: 0.24630436, y: 0.088490635, z: -0.12984793, w: -0.956582}
+    - {x: 0.5091057, y: 0.13997084, z: 0.0826229, w: -0.845341}
+    - {x: -0.124240294, y: 0.07057727, z: 0.6868904, w: -0.71284163}
+    - {x: 0.049244605, y: 0.051119514, z: -0.7909584, w: -0.6082538}
+    - {x: -0.11087586, y: 0.14703104, z: -0.75394404, w: -0.63087225}
+    - {x: 0.11621294, y: -0.053014234, z: 0.027204081, w: -0.99163264}
+    - {x: -0.000000044673733, y: 0.15423135, z: -0.0000000018389334, w: -0.9882179}
+    - {x: -0.000000044677414, y: 0.15424444, z: -0.0000000018390675, w: -0.9882992}
+    - {x: -0.000000044666493, y: 0.15420564, z: -0.0000000018386592, w: -0.9880573}
+    - {x: -0.00000004466865, y: 0.1542123, z: -0.0000000018387379, w: -0.98810226}
+  editSelection: 9
+  animProgress: 51.089775
+  previewCharacter: {fileID: 8345595452543881516, guid: 8e773d795453a8e4f897558e6f610e4d,
+    type: 3}
+  linkedStations:
+    values:
+    - {fileID: 2799711867207706144}
+  info:
+    needsPenetrator: 0
+    user: {fileID: 0}
+--- !u!1 &2799711867829911618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2799711867829911620}
+  - component: {fileID: 6609452500359072511}
+  - component: {fileID: 3105218484894813408}
+  - component: {fileID: 4284135521200749357}
+  m_Layer: 11
+  m_Name: CouchStation (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2799711867829911620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799711867829911618}
+  m_LocalRotation: {x: -0.000000019197353, y: 0.96925616, z: 0.000000040365297, w: -0.24605411}
+  m_LocalPosition: {x: -171.613, y: 18.565, z: 311.175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2799711867207706145}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -590.284, z: 0}
+--- !u!114 &6609452500359072511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799711867829911618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 3105218484894813408}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &3105218484894813408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799711867829911618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460572374f6a3884bb290ea1b92ebd8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constructed: 1
+  trackedConstructedObjects: []
+  breedingSprite: {fileID: 21300000, guid: 4b322339cb0956a428014ff67cf4c26d, type: 3}
+  animationStations:
+  - {fileID: 0}
+  - {fileID: 2799711867207706144}
+--- !u!65 &4284135521200749357
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799711867829911618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
