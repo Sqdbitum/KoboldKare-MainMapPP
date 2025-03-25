@@ -1,7 +1,7 @@
 <p align="left">
-  <img src="https://github.com/Sqdbitum/KoboldKare-MainMapPP/blob/main/MainMap++Preview.png?raw=true" alt="Image 1" width="175" style="margin-right: 100px; display: inline-block;">
+  <img src="https://github.com/Sqdbitum/KoboldKare-MainMapPP/blob/main/textures/MainMap++Preview.png?raw=true" alt="Image 1" width="175" style="margin-right: 100px; display: inline-block;">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/Sqdbitum/KoboldKare-MainMapPP/blob/main/MainMap++Night.png?raw=true" alt="Image 2" width="175" style="display: inline-block;">
+  <img src="https://github.com/Sqdbitum/KoboldKare-MainMapPP/blob/main/textures/MainMap++Night.png?raw=true" alt="Image 2" width="175" style="display: inline-block;">
 </p>
 
 # MainMap++ / MainMap++Night
